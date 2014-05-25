@@ -1,6 +1,8 @@
-################################################################
-##
-################################################################
+####################################################################
+## Script creating tidy dataset with the average of each variable 
+## for each activity and each subjecfrom data collected from the 
+## accelerometers from the Samsung Galaxy S smartphone
+####################################################################
 
 ################################################################
 ## IMPORTANT : Run this script in the directory where the 
