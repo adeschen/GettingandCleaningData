@@ -94,7 +94,7 @@ all_data<-all_data[, grep("\\.Mean\\.|\\.Standard_Deviation\\.|Activity|Voluntee
 ## 4. USE DESCRIPTIVE ACTIVITY NAMES IN THE DATASET
 #####################################################
 
-## Add activity names in the data set byer merging the main dataset with the activity dataset loaded sooner (step 1)
+## Add activity names in the data set by merging the main dataset with the activity dataset loaded sooner (step 1)
 all_data_with_activity<-merge(activityLabels, all_data,  by="ActivityIdentifier")
 
 ## Remove activity identifier from the data set
